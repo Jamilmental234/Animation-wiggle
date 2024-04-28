@@ -1,0 +1,42 @@
+.A-1{
+    left: -10%;
+ animation: Flow 1s linear  infinite forwards alternate;
+}
+/* .T01 , .T15 {
+
+} */
+.T02 , .T14 , .T16{
+    animation-delay: 70ms;
+}
+.T03 , .T13 , .T17{
+    animation-delay: 140ms;
+}
+.T04 , .T12 , .T18{
+    animation-delay: 210ms;
+}
+.T05 , .T11 , .T19{
+    animation-delay: 280ms;
+}
+.T06 , .T10 , .T20{
+    animation-delay: 350ms;
+}
+.T07 , .T09 , .T21 , .T23{
+    animation-delay: 420ms;
+}
+.T08 , .T22 {
+    animation-delay: 490ms;
+}
+
+@keyframes Flow {
+    0%{
+        background-color: rgba(255, 166, 0, 0.111);
+    }
+    50%{
+        background-color: darkred;
+    }
+    100%{
+        
+        background-color: rgba(128, 43, 12, 0.368);
+        translate: 100%;
+    }
+}
